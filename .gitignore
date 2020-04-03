@@ -31,3 +31,6 @@ oplall.jar
 # folders
 /target/
 /log/*
+
+#secrets
+key.properties

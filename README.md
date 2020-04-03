@@ -25,7 +25,7 @@ The final project text may be found in the following repository (available only 
 - Requirements are Java +1.6 and IBM ILOG CPLEX Optimization Studio 12.8+
 - Due to license purposes, the oplall.jar was removed from the repository. So, you need to copy your `oplall.jar` found in `{your.cplex.folder}/opl/lib/oplall.jar` to the `/lib` of this project. Consider copying the `oplall.jar` to the `/tcc-vrp128_lib` folder as well in order to use the already compiled `tcc-vrp128.jar` (or `tcc-vrp128.exe`) directly.
 
-- The tcc-vrp screens are found in `/softare_screens` folder.
+- The tcc-vrp screens are found in `/software_screens` folder.
 
 
 

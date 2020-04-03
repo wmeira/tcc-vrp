@@ -24,8 +24,18 @@ The final project text may be found in the following repository (available only 
 
 - Requirements are Java +1.6 and IBM ILOG CPLEX Optimization Studio 12.8+
 - Due to license purposes, the oplall.jar was removed from the repository. So, you need to copy your `oplall.jar` found in `{your.cplex.folder}/opl/lib/oplall.jar` to the `/lib` of this project. Consider copying the `oplall.jar` to the `/tcc-vrp128_lib` folder as well in order to use the already compiled `tcc-vrp128.jar` (or `tcc-vrp128.exe`) directly.
+- The Bing Maps API is used to plot the maps. So, the following steps are requested: 
+	- Get a [Bing Maps Key](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key)
+	- Include the `key.properties` file in the root directory, right beside the `path.properties` file
+	- In the `key.properties` file add the property: 
+	
+		> `bingKey = [YourBingMapsKey]`
 
-- The tcc-vrp screens are found in `/software_screens` folder.
+- To run the software: `utfpr.tcc.vrp.main.Main` or double-click the `tcc-vrp128.jar` or `tcc-vrp128.exe`
+
+## Images
+
+- The tcc-vrp screens may be found in `/software_screens` folder.
 
 
 

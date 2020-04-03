@@ -8,7 +8,7 @@ Trabalho de Conclusão de Curso - Engenharia de Computação - UTFPR - 2013
 
 *Title: Vehicle Routing Problem with Mixed Pickup and Delivery and Time Windows: Application in a Company in the Metropolitan Region of Curitiba*
 
-Orientador (*Supervisor*): Prof. Dr. Leandro Magatão
+**Orientador** (*Supervisor*): Prof. Dr. Leandro Magatão
 
 ## Abstract
 

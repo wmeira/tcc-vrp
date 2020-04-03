@@ -2,7 +2,7 @@
 
 Trabalho de Conclusão de Curso - Engenharia de Computação - UTFPR - 2013
 
-*Final Project - Computer Engineering - 2013*
+*Final Project - Computer Engineering - UTFPR - 2013*
 
 **Título**: Problema de Roteamento de Veículos com Entregas e Coletas Mistas e Janelas de Tempo: Aplicação em uma Empresa da Região Metropolitana de Curitiba
 

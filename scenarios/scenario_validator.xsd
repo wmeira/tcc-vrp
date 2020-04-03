@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="scenario">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="deposit" type="depositType"/>
+				<xs:element name="vehicles">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="vehicle" minOccurs="0" maxOccurs="unbounded" type="vehicleType"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="deliveries">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="delivery" minOccurs="0" maxOccurs="unbounded" type="serviceType"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>	
+				<xs:element name="pickups">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="pickup" minOccurs="0" maxOccurs="unbounded" type="serviceType"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="itineraryMatrix">
+					<xs:complexType>	
+						<xs:sequence>
+							<xs:element name="node" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="itinerary" minOccurs="0" maxOccurs="unbounded" type="itineraryType"/>										
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:all>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="date" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="itineraryItemType">
+		<xs:attribute name="type" type="xs:string" use="required"/>
+		<xs:attribute name="instruction" type="xs:string" use="required"/>	
+	</xs:complexType>
+	
+	<xs:complexType name="itineraryType" >
+		<xs:sequence>
+			<xs:element name="itineraryItem" minOccurs="0" maxOccurs="unbounded" type="itineraryItemType" />
+		</xs:sequence>
+		<xs:attribute name="distance" type="xs:decimal" use="required"/>
+		<xs:attribute name="travelTime" type="xs:decimal" use="required"/>		
+	</xs:complexType>
+	
+	<xs:complexType name="locationType">
+		<xs:attribute name="address" type="xs:string" use="required"/>
+		<xs:attribute name="latitude" type="xs:decimal" use="required"/>
+		<xs:attribute name="longitude" type="xs:decimal" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="availabilityType">
+		<xs:attribute name="from" type="xs:string" use="required"/>
+		<xs:attribute name="to" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="depositType">
+		<xs:all>
+			<xs:element name="location" type="locationType"/>
+			<xs:element name="availability" type="availabilityType"/>	
+		</xs:all>		
+		<xs:attribute name="name" type="xs:string" use="required"/>	
+	</xs:complexType>
+	
+	
+	<xs:complexType name="vehicleType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="weight_capacity" type="xs:decimal" use="required"/>
+		<xs:attribute name="volume_capacity" type="xs:decimal" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="productType">
+		<xs:attribute name="weight" type="xs:decimal" use="required"/>
+		<xs:attribute name="volume" type="xs:decimal" use="required"/>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="serviceType" >
+		<xs:all>
+			<xs:element name="location" type="locationType"/>
+			<xs:element name="product" type="productType"/>
+			<xs:element name="availabilities">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="availability" minOccurs="1" maxOccurs="unbounded" type="availabilityType"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:all>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	
+</xs:schema>

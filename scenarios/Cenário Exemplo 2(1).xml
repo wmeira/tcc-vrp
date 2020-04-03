@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario name="Cenário Exemplo 1" date="17/09/2013">
+  <deposit name="Depósito Central">
+    <location address="Rua Luiz Valenza, Curitiba - PR, 81350-080, Brasil" latitude="-25.4925251" longitude="-49.3326454" />
+    <availability from="08:00" to="17:00" />
+  </deposit>
+  <vehicles>
+    <vehicle name="Ducato" weight_capacity="1000.0" volume_capacity="7.5" />
+  </vehicles>
+  <deliveries>
+    <delivery name="João Centro">
+      <location address="Avenida Manoel Ribas, 5920, Curitiba - PR, 82020-000, Brasil" latitude="-25.4041767" longitude="-49.3280792" />
+      <product weight="700.0" volume="2.0" />
+      <availabilities>
+        <availability from="08:00" to="17:00" />
+      </availabilities>
+    </delivery>
+    <delivery name="Guilherme">
+      <location address="Rua Carmem Miranda, 9, São José Dos Pinhais - PR, 83050-370, Brasil" latitude="-25.501646" longitude="-49.1779213" />
+      <product weight="265.0" volume="3.0" />
+      <availabilities>
+        <availability from="08:00" to="17:00" />
+      </availabilities>
+    </delivery>
+  </deliveries>
+  <pickups>
+    <pickup name="William">
+      <location address="Avenida Sete de Setembro, 3100, Curitiba - PR, 80230-010, Brasil" latitude="-25.4383564" longitude="-49.2691956" />
+      <product weight="450.0" volume="3.0" />
+      <availabilities>
+        <availability from="08:00" to="17:00" />
+      </availabilities>
+    </pickup>
+    <pickup name="Felipe">
+      <location address="Rua Olívio Domingos Leonardi, 41, Curitiba - PR, 81925-120, Brasil" latitude="-25.5460472" longitude="-49.2686729" />
+      <product weight="365.0" volume="4.0" />
+      <availabilities>
+        <availability from="08:00" to="17:00" />
+      </availabilities>
+    </pickup>
+  </pickups>
+  <itineraryMatrix>
+    <node>
+      <itinerary distance="0.0" travelTime="0.0" />
+      <itinerary distance="16.923" travelTime="22.01">
+        <itineraryItem type="DepartStart" instruction="Siga para o sul Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Professor Algacyr Munhoz Mader. Siga durante 212 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a segunda saída na rotatória para Rua Professor Algacyr Munhoz Mader. Siga durante 786 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Juscelino Kubitschek de Oliveira. Siga durante 119 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda. Siga durante 65 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Juscelino Kubitschek de Oliveira. Siga durante 7.3 quilômetros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rodovia Contorno Norte de Curitiba. Siga durante 4.9 quilômetros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita na direção Sta Felicidade/Campo Magro. Siga durante 230 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a primeira saída na rotatória na direção Sta Felicidade/Campo Magro. Siga durante 3.2 quilômetros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Avenida Manoel Ribas . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="23.443" travelTime="32.96">
+        <itineraryItem type="DepartStart" instruction="Siga para o sul Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Professor Algacyr Munhoz Mader. Siga durante 809 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua João Bettega. Siga durante 4.1 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Doutor João Tobias Pinto Rebelo. Siga durante 519 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Itacolomi. Siga durante 134 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Orlando Padilha dos Santos. Siga durante 266 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Itatiaia. Siga durante 10 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Avenida Presidente Kennedy. Siga durante 143 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Wilson de França. Siga durante 203 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Avenida Santa Bernadete. Siga durante 318 metros." />
+        <itineraryItem type="BearLeft" instruction="Vire levemente à esquerda Avenida Presidente Wenceslau Bráz. Siga durante 3.2 quilômetros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita. Siga durante 83 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda BR-476. Siga durante 3.7 quilômetros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Rodovia Curitiba-Paranaguá. Siga durante 8.0 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Tiradentes. Siga durante 381 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Alfredo Pinto. Siga durante 751 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Almirante Alexandrino. Siga durante 724 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Carmem Miranda. Siga durante 21 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Carmem Miranda . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="11.349" travelTime="19.45">
+        <itineraryItem type="DepartStart" instruction="Siga para o sul Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Professor Algacyr Munhoz Mader. Siga durante 809 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua João Bettega. Siga durante 4.1 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Doutor João Tobias Pinto Rebelo. Siga durante 119 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Luiz Parigot de Souza. Siga durante 287 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Augusto de Mari. Siga durante 331 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Eduardo Carlos Pereira. Siga durante 475 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Guilherme Pugsley. Siga durante 2.1 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Largo Doutor Acir Mulinari. Siga durante 80 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rua Guilherme Pugsley. Siga durante 21 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Saint'Hilaire. Siga durante 623 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Silva Jardim. Siga durante 2.1 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Marechal Floriano Peixoto. Siga durante 184 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Sete de Setembro. Siga durante 80 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Avenida Sete de Setembro . O destino está à sua direita." />
+      </itinerary>
+      <itinerary distance="11.037" travelTime="19.89">
+        <itineraryItem type="DepartStart" instruction="Siga para o sul Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Professor Algacyr Munhoz Mader. Siga durante 809 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua João Bettega. Siga durante 542 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida das Indústrias. Siga durante 2.8 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua José Rodrigues Pinheiro. Siga durante 1.3 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Marechal Otávio Saldanha Mazza. Siga durante 1.6 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Gertrudes Cruz de Andrade. Siga durante 116 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rua Izaac Ferreira da Cruz. Siga durante 43 metros." />
+        <itineraryItem type="KeepStraight" instruction="Pegue a faixa do meio Rua Izaac Ferreira da Cruz. Siga durante 1.2 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Izaac Ferreira da Cruz. Siga durante 864 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Filósofo Huberto Rohden. Siga durante 893 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Tijucas do Sul. Siga durante 457 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Lupionópolis. Siga durante 302 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Olívio Domingos Leonardi. Siga durante 38 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Olívio Domingos Leonardi . O destino está à sua esquerda." />
+      </itinerary>
+    </node>
+    <node>
+      <itinerary distance="15.751" travelTime="22.05">
+        <itineraryItem type="DepartStart" instruction="Siga para o noroeste Avenida Manoel Ribas. Siga durante 329 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Vereador Toaldo Túlio. Siga durante 4.8 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rodovia do Café. Siga durante 1.3 quilômetros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita na direção Retorno/Plast. Paraná. Siga durante 395 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita na direção Retorno/Plast. Paraná. Siga durante 238 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Avenida Juscelino Kubitschek de Oliveira. Siga durante 491 metros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda Avenida Juscelino Kubitschek de Oliveira. Siga durante 5.3 quilômetros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Avenida Juscelino Kubitschek de Oliveira. Siga durante 245 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Raul Pompéia. Siga durante 104 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Juscelino Kubitschek de Oliveira. Siga durante 1.4 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Professor Algacyr Munhoz Mader. Siga durante 743 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a segunda saída na rotatória para Rua Professor Algacyr Munhoz Mader. Siga durante 256 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Luiz Valenza . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="0.0" travelTime="0.0" />
+      <itinerary distance="22.279" travelTime="31.13">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudeste Avenida Manoel Ribas. Siga durante 724 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Manoel Ribas. Siga durante 129 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a primeira saída na rotatória para Avenida Manoel Ribas. Siga durante 3.7 quilômetros." />
+        <itineraryItem type="BearRight" instruction="Vire levemente à direita Alameda Presidente Taunay. Siga durante 302 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Júlia Wanderley. Siga durante 231 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Desembargador Motta. Siga durante 2.5 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Silva Jardim. Siga durante 1.8 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Viaduto Colorado. Siga durante 812 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Colorado. Siga durante 35 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Brasílio Itiberê. Siga durante 436 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Prefeito Omar Sabbag. Siga durante 1.5 quilômetros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Avenida Prefeito Lothário Meissner. Siga durante 342 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rodovia Curitiba-Paranaguá. Siga durante 7.9 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Tiradentes. Siga durante 381 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Alfredo Pinto. Siga durante 751 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Almirante Alexandrino. Siga durante 724 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Carmem Miranda. Siga durante 21 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Carmem Miranda . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="8.879" travelTime="14.46">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudeste Avenida Manoel Ribas. Siga durante 724 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Manoel Ribas. Siga durante 129 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a primeira saída na rotatória para Avenida Manoel Ribas. Siga durante 3.7 quilômetros." />
+        <itineraryItem type="BearRight" instruction="Vire levemente à direita Alameda Presidente Taunay. Siga durante 302 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Júlia Wanderley. Siga durante 231 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Desembargador Motta. Siga durante 2.5 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Silva Jardim. Siga durante 1.0 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Marechal Floriano Peixoto. Siga durante 184 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Sete de Setembro. Siga durante 80 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Avenida Sete de Setembro . O destino está à sua direita." />
+      </itinerary>
+      <itinerary distance="20.046" travelTime="32.79">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudeste Avenida Manoel Ribas. Siga durante 736 metros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Avenida Nicolau José Gravina. Siga durante 796 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Professor Francisco Basseti Júnior. Siga durante 768 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Cândido Hartmann. Siga durante 26 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Padre Ladislau Kula. Siga durante 1.2 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua do Café. Siga durante 1.1 quilômetros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rua Major Heitor Guimarães. Siga durante 1.9 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua General Mário Tourinho. Siga durante 747 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a segunda saída na rotatória para Avenida Pres. Arthur da Silva Bernardes. Siga durante 1.7 quilômetros." />
+        <itineraryItem type="BearLeft" instruction="Vire levemente à esquerda Avenida Pres. Arthur da Silva Bernardes. Siga durante 665 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Francisco Frischmann. Siga durante 495 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Doutor João Tobias Pinto Rebelo. Siga durante 620 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Isaac Guelmann. Siga durante 1.2 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Antônio Gasparin. Siga durante 1.0 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Marechal Otávio Saldanha Mazza. Siga durante 3.2 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Gertrudes Cruz de Andrade. Siga durante 116 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rua Izaac Ferreira da Cruz. Siga durante 43 metros." />
+        <itineraryItem type="KeepStraight" instruction="Pegue a faixa do meio Rua Izaac Ferreira da Cruz. Siga durante 1.2 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Izaac Ferreira da Cruz. Siga durante 864 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Filósofo Huberto Rohden. Siga durante 893 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Tijucas do Sul. Siga durante 457 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Lupionópolis. Siga durante 302 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Olívio Domingos Leonardi. Siga durante 38 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Olívio Domingos Leonardi . O destino está à sua esquerda." />
+      </itinerary>
+    </node>
+    <node>
+      <itinerary distance="26.678" travelTime="29.95">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudeste Rua Carmem Miranda. Siga durante 749 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Rui Barbosa. Siga durante 204 metros." />
+        <itineraryItem type="EnterThenExitRoundabout" instruction="Passe por 2 rotatórias e continue na Avenida Rui Barbosa. Siga durante 3.2 quilômetros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda na direção Centro S. J. Pinhais/Aeroporto A. Pena/BR-376/S. Catarina. Siga durante 5.0 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita. Siga durante 35 metros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita em seguida entre na rodovia BR-116. Siga durante 8.9 quilômetros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda BR-116. Siga durante 6.4 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita. Siga durante 49 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Juscelino Kubitschek de Oliveira. Siga durante 914 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Professor Algacyr Munhoz Mader. Siga durante 743 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a segunda saída na rotatória para Rua Professor Algacyr Munhoz Mader. Siga durante 256 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Luiz Valenza . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="24.56" travelTime="31.11">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudeste Rua Carmem Miranda. Siga durante 111 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Antônio Chabereck. Siga durante 77 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua John Lennon. Siga durante 636 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Rui Barbosa. Siga durante 1.3 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda na direção Paranaguá. Siga durante 50 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Rui Barbosa. Siga durante 137 metros." />
+        <itineraryItem type="UTurn" instruction="Retorne. Siga durante 75 metros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Rodovia Curitiba-Paranaguá. Siga durante 9.1 quilômetros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda Rodovia Curitiba-Paranaguá. Siga durante 393 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Avenida Prefeito Lothário Meissner. Siga durante 1.1 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Avenida Prefeito Omar Sabbag. Siga durante 825 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Engenheiro Rebouças. Siga durante 2.5 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Brigadeiro Franco. Siga durante 3.2 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Alcides Munhoz. Siga durante 540 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Manoel Ribas. Siga durante 3.5 quilômetros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a terceira saída na rotatória para Avenida Manoel Ribas. Siga durante 155 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Manoel Ribas. Siga durante 724 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Avenida Manoel Ribas . O destino está à sua direita." />
+      </itinerary>
+      <itinerary distance="0.0" travelTime="0.0" />
+      <itinerary distance="16.261" travelTime="19.71">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudeste Rua Carmem Miranda. Siga durante 111 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Antônio Chabereck. Siga durante 77 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua John Lennon. Siga durante 636 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Rui Barbosa. Siga durante 1.3 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda na direção Paranaguá. Siga durante 50 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Rui Barbosa. Siga durante 137 metros." />
+        <itineraryItem type="UTurn" instruction="Retorne. Siga durante 75 metros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Rodovia Curitiba-Paranaguá. Siga durante 9.1 quilômetros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda Rodovia Curitiba-Paranaguá. Siga durante 393 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Avenida Prefeito Lothário Meissner. Siga durante 979 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Alberto Twardowski. Siga durante 543 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Pergentina Silva Soares. Siga durante 70 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Comendador Franco. Siga durante 428 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Colorado. Siga durante 361 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Viaduto Colorado. Siga durante 826 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Colorado. Siga durante 71 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rua Mariano Torres. Siga durante 71 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Largo Baden Powell. Siga durante 33 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Sete de Setembro. Siga durante 962 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Avenida Sete de Setembro . O destino está à sua direita." />
+      </itinerary>
+      <itinerary distance="17.733" travelTime="23.1">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudeste Rua Carmem Miranda. Siga durante 749 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Rui Barbosa. Siga durante 204 metros." />
+        <itineraryItem type="EnterThenExitRoundabout" instruction="Passe por 2 rotatórias e continue na Avenida Rui Barbosa. Siga durante 3.2 quilômetros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda na direção Centro S. J. Pinhais/Aeroporto A. Pena/BR-376/S. Catarina. Siga durante 5.0 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita. Siga durante 35 metros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita em seguida entre na rodovia BR-116. Siga durante 6.9 quilômetros." />
+        <itineraryItem type="TakeRampRight" instruction="Mantenha-se à direita e pegue a saída. Siga durante 42 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Estrada do Ganchinho. Siga durante 462 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Lupionópolis. Siga durante 1.1 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Olívio Domingos Leonardi. Siga durante 38 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Olívio Domingos Leonardi . O destino está à sua esquerda." />
+      </itinerary>
+    </node>
+    <node>
+      <itinerary distance="10.811" travelTime="17.28">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudoeste Avenida Sete de Setembro. Siga durante 2.5 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Castro Alves. Siga durante 711 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Guararapes. Siga durante 1.3 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Francisco Frischmann. Siga durante 653 metros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda Rua Francisco Frischmann. Siga durante 634 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua João Bettega. Siga durante 4.1 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Professor Algacyr Munhoz Mader. Siga durante 809 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Luiz Valenza . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="8.244" travelTime="12.26">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudoeste Avenida Sete de Setembro. Siga durante 802 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Brigadeiro Franco. Siga durante 2.5 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Alcides Munhoz. Siga durante 540 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Manoel Ribas. Siga durante 3.5 quilômetros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a terceira saída na rotatória para Avenida Manoel Ribas. Siga durante 155 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Manoel Ribas. Siga durante 724 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Avenida Manoel Ribas . O destino está à sua direita." />
+      </itinerary>
+      <itinerary distance="15.265" travelTime="21.73">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudoeste Avenida Sete de Setembro. Siga durante 316 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Alferes Poli. Siga durante 350 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Praça Rui Barbosa. Siga durante 79 metros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Praça Rui Barbosa. Siga durante 23 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua André de Barros. Siga durante 117 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Desembargador Westphalen. Siga durante 537 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Silva Jardim. Siga durante 958 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Viaduto Colorado. Siga durante 812 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Colorado. Siga durante 35 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Brasílio Itiberê. Siga durante 436 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Prefeito Omar Sabbag. Siga durante 1.5 quilômetros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Avenida Prefeito Lothário Meissner. Siga durante 342 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rodovia Curitiba-Paranaguá. Siga durante 7.9 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Tiradentes. Siga durante 381 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Alfredo Pinto. Siga durante 751 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Almirante Alexandrino. Siga durante 724 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Carmem Miranda. Siga durante 21 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Carmem Miranda . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="0.0" travelTime="0.0" />
+      <itinerary distance="15.693" travelTime="24.25">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudoeste Avenida Sete de Setembro. Siga durante 2.5 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Castro Alves. Siga durante 711 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Guararapes. Siga durante 1.3 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Francisco Frischmann. Siga durante 653 metros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda Rua Francisco Frischmann. Siga durante 634 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Doutor João Tobias Pinto Rebelo. Siga durante 620 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Isaac Guelmann. Siga durante 1.2 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Antônio Gasparin. Siga durante 1.0 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Marechal Otávio Saldanha Mazza. Siga durante 3.2 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Gertrudes Cruz de Andrade. Siga durante 116 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rua Izaac Ferreira da Cruz. Siga durante 43 metros." />
+        <itineraryItem type="KeepStraight" instruction="Pegue a faixa do meio Rua Izaac Ferreira da Cruz. Siga durante 1.2 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Izaac Ferreira da Cruz. Siga durante 864 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Filósofo Huberto Rohden. Siga durante 893 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Tijucas do Sul. Siga durante 457 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Lupionópolis. Siga durante 302 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Olívio Domingos Leonardi. Siga durante 38 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Olívio Domingos Leonardi . O destino está à sua esquerda." />
+      </itinerary>
+    </node>
+    <node>
+      <itinerary distance="12.149" travelTime="15.48">
+        <itineraryItem type="DepartStart" instruction="Siga para o noroeste Rua Olívio Domingos Leonardi. Siga durante 38 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Lupionópolis. Siga durante 1.1 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Estrada do Ganchinho. Siga durante 898 metros." />
+        <itineraryItem type="TakeRampLeft" instruction="Mantenha-se à esquerda em seguida entre na rodovia BR-116. Siga durante 1.6 quilômetros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda BR-116. Siga durante 6.4 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita. Siga durante 49 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Juscelino Kubitschek de Oliveira. Siga durante 914 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Professor Algacyr Munhoz Mader. Siga durante 743 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a segunda saída na rotatória para Rua Professor Algacyr Munhoz Mader. Siga durante 256 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Luiz Valenza . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="26.763" travelTime="30.51">
+        <itineraryItem type="DepartStart" instruction="Siga para o noroeste Rua Olívio Domingos Leonardi. Siga durante 38 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Lupionópolis. Siga durante 1.1 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Estrada do Ganchinho. Siga durante 898 metros." />
+        <itineraryItem type="TakeRampLeft" instruction="Mantenha-se à esquerda em seguida entre na rodovia BR-116. Siga durante 1.6 quilômetros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se à esquerda BR-116. Siga durante 14.8 quilômetros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rodovia Contorno Norte de Curitiba. Siga durante 4.9 quilômetros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita na direção Sta Felicidade/Campo Magro. Siga durante 230 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a primeira saída na rotatória na direção Sta Felicidade/Campo Magro. Siga durante 3.2 quilômetros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Avenida Manoel Ribas . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="13.742" travelTime="25.6">
+        <itineraryItem type="DepartStart" instruction="Siga para o sudeste Rua Olívio Domingos Leonardi. Siga durante 170 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Nova Aurora. Siga durante 303 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Tijucas do Sul. Siga durante 39 metros." />
+        <itineraryItem type="UTurn" instruction="Retorne. Siga durante 66 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Nova Aurora. Siga durante 1.3 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua David Tows. Siga durante 695 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Izaac Ferreira da Cruz. Siga durante 866 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a segunda saída na rotatória para Rua Maestro Carlos Frank. Siga durante 2.5 quilômetros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Avenida Marechal Floriano Peixoto. Siga durante 444 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda. Siga durante 21 metros." />
+        <itineraryItem type="BearRight" instruction="Vire levemente à direita Avenida Marechal Floriano Peixoto. Siga durante 1.5 quilômetros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Avenida das Américas. Siga durante 1.4 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Joaquim Nabuco. Siga durante 449 metros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se à direita Praça Germano Schlogel. Siga durante 66 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Maringá. Siga durante 546 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Avenida Castro Alves. Siga durante 846 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Harry Feeken. Siga durante 75 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua José Claudino Barbosa. Siga durante 1.3 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Vitório Marenda. Siga durante 258 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Almirante Alexandrino. Siga durante 898 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Carmem Miranda. Siga durante 21 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Rua Carmem Miranda . O destino está à sua esquerda." />
+      </itinerary>
+      <itinerary distance="15.627" travelTime="25.71">
+        <itineraryItem type="DepartStart" instruction="Siga para o noroeste Rua Olívio Domingos Leonardi. Siga durante 38 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua Lupionópolis. Siga durante 302 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Tijucas do Sul. Siga durante 470 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rua Filósofo Huberto Rohden. Siga durante 892 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Izaac Ferreira da Cruz. Siga durante 2.0 quilômetros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Rua João Laertes Bochnia. Siga durante 226 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Emanoel Voluz. Siga durante 439 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Avenida Winston Churchill. Siga durante 31 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua André Ferreira Barbosa. Siga durante 1.2 quilômetros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rua Francisco Raitani. Siga durante 1.7 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Irmãs Paulinas. Siga durante 966 metros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Avenida Brasília. Siga durante 425 metros." />
+        <itineraryItem type="BearRight" instruction="Vire levemente à direita Rua Eduardo Carlos Pereira. Siga durante 1.7 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Rua Guilherme Pugsley. Siga durante 2.1 quilômetros." />
+        <itineraryItem type="Continue" instruction="Siga em frente Largo Doutor Acir Mulinari. Siga durante 80 metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rua Guilherme Pugsley. Siga durante 21 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Rua Saint'Hilaire. Siga durante 623 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire à direita Avenida Silva Jardim. Siga durante 2.1 quilômetros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Marechal Floriano Peixoto. Siga durante 184 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire à esquerda Avenida Sete de Setembro. Siga durante 80 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Você chegará ao seu destino na Avenida Sete de Setembro . O destino está à sua direita." />
+      </itinerary>
+      <itinerary distance="0.0" travelTime="0.0" />
+    </node>
+  </itineraryMatrix>
+</scenario>

@@ -1,0 +1,26 @@
+LimiteTempo = 1200;
+NumeroNos = 5;
+NumeroVeiculos = 1;
+CapPesoMax = [1000];
+CapVolMax = [7.5];
+QPesoEntrega = [0 700 265 0 0];
+QPesoColeta = [0 0 0 450 365];
+QVolEntrega = [0 2 3 0 0];
+QVolColeta = [0 0 0 3 4];
+TempoServico = [0 30 30 30 30];
+MaximoJanelasTempo = 1;
+InicioJT = [[0]
+             [0]
+             [0]
+             [0]
+             [0]];
+FimJT = [[540]
+             [540]
+             [540]
+             [540]
+             [540]];
+TempoViagem = [[0 22 33 19 20]
+             [22 0 31 14 33]
+             [30 31 0 20 23]
+             [17 12 22 0 24]
+             [15 31 26 26 0]];

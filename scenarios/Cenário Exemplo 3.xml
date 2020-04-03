@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario name="Cenário Exemplo 3" date="17/09/2013">
+  <deposit name="Depósito Central">
+    <location address="Rua Luiz Valenza, Curitiba - PR, 81350-080, Brasil" latitude="-25.4925251" longitude="-49.3326454" />
+    <availability from="08:00" to="17:00" />
+  </deposit>
+  <vehicles>
+    <vehicle name="Ducato" weight_capacity="1000.0" volume_capacity="7.5" />
+    <vehicle name="Truck" weight_capacity="7000.0" volume_capacity="30.0" />
+  </vehicles>
+  <deliveries />
+  <pickups>
+    <pickup name="William">
+      <location address="Avenida Manoel Ribas, 5956, Curitiba - PR, 82020-000, Brasil" latitude="-25.4040089" longitude="-49.328331" />
+      <product weight="300.0" volume="2.0" />
+      <availabilities>
+        <availability from="08:00" to="17:00" />
+      </availabilities>
+    </pickup>
+  </pickups>
+  <itineraryMatrix>
+    <node>
+      <itinerary distance="0.0" travelTime="0.0" />
+      <itinerary distance="15.847" travelTime="23.5">
+        <itineraryItem type="DepartStart" instruction="Siga para o sul Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Rua Professor Algacyr Munhoz Mader. Siga durante 212 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a segunda sa�da na rotat�ria para Rua Professor Algacyr Munhoz Mader. Siga durante 786 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Avenida Juscelino Kubitschek de Oliveira. Siga durante 119 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda. Siga durante 65 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Avenida Juscelino Kubitschek de Oliveira. Siga durante 7.3 quil�metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Rodovia Contorno Norte de Curitiba. Siga durante 3.3 quil�metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita. Siga durante 38 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Rua Hellena Betecek. Siga durante 55 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Domingos Benatto. Siga durante 640 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Jo�o Volpe. Siga durante 536 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Jo�o Volpe. Siga durante 22 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Rua Ant�nio Tur�bio Teixeira Braga. Siga durante 35 metros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se � esquerda Rua Ant�nio Tur�bio Teixeira Braga. Siga durante 697 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Rua Acelino Grande. Siga durante 213 metros." />
+        <itineraryItem type="BearLeft" instruction="Vire levemente � esquerda Rua Professor Francisco Zardo. Siga durante 1.4 quil�metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Avenida Manoel Ribas. Siga durante 274 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Marcos Mocellin. Siga durante 22 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Rua �ngelo Slomb. Siga durante 13 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Voc� chegar� ao seu destino na Rua �ngelo Slomb . O destino est� � sua direita." />
+      </itinerary>
+    </node>
+    <node>
+      <itinerary distance="15.954" travelTime="24.23">
+        <itineraryItem type="DepartStart" instruction="Siga para o oeste Rua �ngelo Slomb. Siga durante 13 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Marcos Mocellin. Siga durante 22 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Avenida Manoel Ribas. Siga durante 274 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Avenida Vereador Toaldo T�lio. Siga durante 436 metros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se � direita Rua Professor Francisco Zardo. Siga durante 968 metros." />
+        <itineraryItem type="BearRight" instruction="Vire levemente � direita Rua Acelino Grande. Siga durante 213 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Ant�nio Tur�bio Teixeira Braga. Siga durante 732 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Jo�o Volpe. Siga durante 22 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Rua Jo�o Volpe. Siga durante 536 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Rua Domingos Benatto. Siga durante 640 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Rua Hellena Betecek. Siga durante 55 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda. Siga durante 38 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Estrada Norte de Curitiba. Siga durante 3.3 quil�metros." />
+        <itineraryItem type="RoadNameChange" instruction="O nome da rua muda para Avenida Juscelino Kubitschek de Oliveira. Siga durante 491 metros." />
+        <itineraryItem type="KeepLeft" instruction="Mantenha-se � esquerda Avenida Juscelino Kubitschek de Oliveira. Siga durante 5.3 quil�metros." />
+        <itineraryItem type="KeepRight" instruction="Mantenha-se � direita Avenida Juscelino Kubitschek de Oliveira. Siga durante 245 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Raul Pomp�ia. Siga durante 104 metros." />
+        <itineraryItem type="TurnRight" instruction="Vire � direita Avenida Juscelino Kubitschek de Oliveira. Siga durante 1.4 quil�metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Professor Algacyr Munhoz Mader. Siga durante 743 metros." />
+        <itineraryItem type="ExitRoundabout" instruction="Pegue a segunda sa�da na rotat�ria para Rua Professor Algacyr Munhoz Mader. Siga durante 256 metros." />
+        <itineraryItem type="TurnLeft" instruction="Vire � esquerda Rua Luiz Valenza. Siga durante 139 metros." />
+        <itineraryItem type="ArriveFinish" instruction="Voc� chegar� ao seu destino na Rua Luiz Valenza . O destino est� � sua esquerda." />
+      </itinerary>
+      <itinerary distance="0.0" travelTime="0.0" />
+    </node>
+  </itineraryMatrix>
+</scenario>
